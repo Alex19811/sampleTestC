@@ -8,13 +8,32 @@ public class Calculator {
     }
 
     public int add(int a, int b) {
-
         return a + b;
     }
 
-    public int multiply(int a, int b) {
-
+    public int multiply(int a, int b)
+    {
         return a * b;
+    }
+
+    public int division (int a, int b) {
+        return a / b;
+    }
+
+    public int subtraction (int a, int b)
+    {
+        return a - b;
+    }
+    public double square (double a, double c) {
+        return (a * c);
+    }
+    public double root (double a)
+    {
+        return Math.sqrt(a);
+    }
+    public double valueToSquare (double a) {
+        int c=2;
+        return Math.pow(a,c);
     }
 
     //TODO
