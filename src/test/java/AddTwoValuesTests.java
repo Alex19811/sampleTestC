@@ -39,16 +39,18 @@ public class AddTwoValuesTests {
     }
 
     @Test
-    public void testSquareStraightTraveler(){
-        assertEquals("10.1 * 5.0 must be 50.5",50.5,calc.square(10.1,5.0));
+    public void testSquareStraightTraveler() {
+        assertEquals("10.1 * 5.0 must be 50.5", 50.5, calc.square(10.1, 5.0));
     }
+
     @Test
-    public void testRootValue(){
-        assertEquals("Root 9=3",3.0,calc.root(9));
+    public void testRootValue() {
+        assertEquals("Root 9=3", 3.0, calc.root(9));
     }
+
     @Test
-    public void testValueToSquare(){
-        assertEquals("Root 9=3",25.0,calc.valueToSquare(5));
+    public void testValueToSquare() {
+        assertEquals("Root 9=3", 25.0, calc.valueToSquare(5));
     }
 
     //TODO
@@ -58,7 +60,7 @@ public class AddTwoValuesTests {
     //add tests for new methods
 
     @After
-    public void consolePrintAfter () {
+    public void consolePrintAfter() {
         System.out.println("Tests finished!!!");
 
     }
